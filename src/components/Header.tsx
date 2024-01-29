@@ -14,7 +14,7 @@ const Header = () => {
     >
 
 
-        <Image width={window.innerWidth} src="src/assets/header.png"/>
+        <Image width={window.innerWidth} src="/header.png"/>
 
 
     </Box>)
