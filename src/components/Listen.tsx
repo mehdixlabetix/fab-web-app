@@ -27,9 +27,7 @@ const Listen = () => {
     const pythonRef = ref(dbRealTime, 'python')
     onValue(pythonRef, (snapshot) => {
         const data = snapshot.val();
-        setIsListening(0);
-        setTimeout(() => {
-        setIsListening(1);}, 5000);
+       setIsListening(1)
         console.log(data)
     })
     const espRef = ref(dbRealTime, 'esp32')
